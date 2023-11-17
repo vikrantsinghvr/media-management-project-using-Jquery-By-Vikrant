@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./jq-UI/jquery-ui.css" type="text/css">
+   <script src="./jq-UI/jquery-ui.js"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+     <!-- Google Web Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+     <!-- Libraries Stylesheet -->
+     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <!-- Customized Bootstrap Stylesheet -->
+     <link href="css/style.css" rel="stylesheet">
+     <script src="../js/main.js"></script>
+     <link rel="stylesheet" href="../css/style.css">
+    <title>lifeStyle</title>
+    <!-- <script>
+    
+    </script> -->
+  </head>
+  <body> 
+     <!-- Topbar Start -->
+     <div class="container-fluid d-none d-lg-block">
+      <div class="row align-items-center bg-white py-3 px-lg-5">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+              <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                  <h1 class="m-0 display-4 text-uppercase text-primary">R<span class="text-secondary font-weight-bold">NA</span></h1>
+              </a>
+          </div>
+          <div class="col-sm-2 text-right d-none d-md-block">
+              
+          </div>
+          <div class="col-sm-6">
+              <div class="input-group ml-auto d-none d-lg-flex" style="width:100%;">
+                  <input type="text" class="form-control border-1" placeholder="Keyword" id="searchbx">
+                  <div class="input-group-append" style="height:auto;">
+                      <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                              class="fa fa-search" id="searchicon"></i></button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-1"></div>
+      </div>
+  </div>
+  <!-- Topbar End -->
+
+
+  <!-- Navbar Start -->
+  <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+          <a href="index.html" class="navbar-brand d-block d-lg-none">
+              <h1 class="m-0 display-4 text-uppercase text-primary">R<span class="text-white font-weight-bold">NA</span></h1>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+              <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="../ND/index.html" class="nav-item nav-link">Latest</a>
+                <!-- <a href="single.html" class="nav-item nav-link">World</a> -->
+                <a href="#" class="nav-item nav-link">Technology</a>
+                <a href="../edu/education.html" class="nav-item nav-link">Education</a>
+                <a href="../AnkitJquery/index.html" class="nav-item nav-link">Business</a>
+                <a href="../politics.html" class="nav-item nav-link">Politics</a>
+                <a href="../religion.html" class="nav-item nav-link">Religion</a>
+                <a href="../entertainment.html" class="nav-item nav-link">Entertainment</a>
+                <a href="../Div_LifeStyle/index.html" class="nav-item nav-link active">Lifestyle</a>
+                <a href="../sport.html" class="nav-item nav-link">Sports</a>
+                <a href="../contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+      </nav>
+  </div>
+  <!-- Navbar End -->
+
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color:#252E33">
+          <h1>Coffee-Time</h1>
+          <p>in the morning</p>
+        </div>
+        <div style="background-color:#FD3555">
+          <h1>Shopping</h1>
+          <p>all in pink</p>
+        </div>
+        <div style="background-color:#35d6c3 ">
+          <h1>FOOD</h1>
+          <p>health is wealth</p>
+        </div>
+        <div style="background-color: #9cceeb">
+          <h1>Relationship</h1>
+          <p>life partner</p>
+        </div>
+        <div style="background-color: #FFB866">
+          <h1>Yoga & Meditaion</h1>
+          <p>in the morning</p>
+        </div>
+      </div>
+      <div class="right-slide">
+        <div style="background-image: url('./image/yoga.jpg');"></div>
+        <div style="background-image: url('./image/relation.jpg')"></div>
+        <div style="background-image: url('./image/eat-.jpg')"></div>
+        <div style="background-image: url('./image/shop.jpg')"></div>
+        <div style="background-image: url('./image/coffee-.jpg')"></div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+<br><br><br>
+
+    <!-- main section -->
+ <div class="row">
+        <div class="col-sm-1"> </div>
+        <div class="col-sm-4">
+            <img src="./download.png" width="100%"/>
+            <h2>GET LEADING LETEST LIFESTILE NEWS</h2>
+            <p>The Good Life:Which is the perfect diet for you? | Lifestyle News |Bizz</p>
+            <br><br>
+            <ul type="circle">
+                <li> <a href="#">Know More</a> </li>
+                <li> <a href="#">Touch Us</a> </li>
+            </ul>
+            <!-- advertisement -->
+<div class="ad-container">
+  <a href="https://lifeStyle.com" id="ad">Advertisement</a>
+      <img src="./image/advertise.jpeg" alt="Advertisement" class="ad-image">
+  </a>
+</div>
+</div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-4">
+                 <img src="./image/mysweet.jpg"  width="100%">
+                 <a href="https://indianexpress.com/section/lifestyle/ ">How to make..</a><br>
+                 <p>This sweet is made from semolina,it tastes amazing! Know the recipe before Diwali. <br>
+                Mohanthal Recipe: Many People make sweets at home on Diwali.</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="./image/diwalilook.jpg" width="100%">
+                    <a href="aajtak.in/Lifestyle">Know more.</a><br>
+                    <p>Want to look beautiful and elegant in the festive season? Follow these tips.</p>
+                   </div>
+                   <div class="col-sm-4">
+                    <img src="./image/tea.jpeg"  width="100%">
+                    <a href="aajtak.in/Lifestyle">Learn more..</a><br>
+                    <p>Drinking tea-coffee-green tea will strengthen your body! Scientists told how many cups it is beneficial to drink.</p>
+                   </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                 <img src="./image/couple.jpg"  width="100%">
+                 <a href="#">Relationship.</a><br>
+                 <p>How emotionally safe is your relationship? Recognize by these signs.</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="./image/samsar.jpeg"  width="100%">
+                    <a href="#">Even more...</a><br>
+                    <p>These Ramsar sites of Odisha are heaven for tourists and environment lovers.</p>
+                   </div>
+                   <div class="col-sm-4">
+                    <img src="./image/jeans.jpg"  width="100%">
+                    <a href="#">Learn more..</a><br>
+                    <p>How to Choose perfect jeans according to your body type?</p>
+                   </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        </div>
+ <hr class="custom-hr">  
+<br><br>
+
+    <!-- another section -->
+ <section>
+  <div class="row">
+    <div class="col-sm-1"> </div>
+    <div class="clear"></div>
+    <div id="page-container">
+        <div id="main-article">
+            <h2>Fashion</h2>
+            <div id="article-container">
+                <h3><a href="">Fashion as a social phenomenon.</a></h3>
+                <div id="article-summary">
+                    <p>In this essay, you may investigate how fashion has gone beyond individual style and become a social phenomenon.</p>
+                    <p><img class="clock" src="./image/fash.jpg"> <span class="date">6 Nov 2023</span><a class="topic-link" href="">Technology</a></p>
+                    <hr id="article-hr" align="left">
+                    <p><img class="clock" src="./image/Videofashion.png"><a class="article-link" href=""> Devastation inside Fort McMurray</a></p>
+                    <p><img class="clock" src="./image/couple.jpg"><a class="article-link" href=""> 'Fashion Trends, Fashion Style Guide & Tips, India & World Events, Celebrity Style & Outfits, Beauty and Health Tips'</a></p>
+                    <p><a class="article-link" href=""> Images reveal fire destruction</a></p>
+                    <p><a class="article-link" href=""> Fire-hit oil plants to restart</a></p>
+                </div>
+                <img id="main-article-image" src="./image/travel.jpg">
+            </div>
+        </div>
+        <div id="watch-listen">
+            <h4>Watch/Listen</h4>
+            <img class="article-side-image" src="./image/home.jpeg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">London delivery bots 'by end of year'</a></p>
+                <p> <span class="date">13 Nov 2023</span></p>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="./image/relation.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Robot learns dexterity by spinning a tube</a></p>
+                <p> <span class="date border-right">13 Nov 2023</span><br><a class="topic-link no-border" href="">Technology</a></p>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="./image/samsar.jpeg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Scientists: 21% of plants risk extinction</a></p>
+                <p> <span class="date border-right">6 Nov 2023</span><br><a class="topic-link no-border" href="">Science & Environment</a></p>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="./image/Videofashion.png">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Rainbow rival for BBC Micro Bit gadget</a></p>
+                <p> <span class="date border-right">1 Oct 2023</span><br><a class="topic-link no-border" href="">Technology</a></p>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="./image/eat-.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Two-legged robot conquers bumpy terrain</a></p>
+                <p> <span class="date border-right">1 Nov 2023</span><br><a class="topic-link no-border" href="">Technology</a></p>
+            </div>
+            <div class="clear"></div>
+            <img class="article-side-image" src="./image/shop.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Facebook denies editing Trending Topics</a></p>
+                <p> <span class="date border-right">7 Nov 2023</span><br><a class="topic-link no-border" href="">Technology</a></p>
+            </div>
+        </div>               
+    </div>
+  </div>  
+  
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
+      <div class="row py-4">
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Get In Touch</h5>
+              <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>Sitapur Chitrakoot Uttar Pradesh India.</p>
+              <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+91 9876543210</p>
+              <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+              <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
+              <div class="d-flex justify-content-start">
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Popular News</h5>
+              <div class="mb-3">
+                  <div class="mb-2">
+                      <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                      <a class="text-body" href=""><small>Jan 01 2024</small></a>
+                  </div>
+                  <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+              </div>
+              <div class="mb-3">
+                  <div class="mb-2">
+                      <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Politics</a>
+                      <a class="text-body" href=""><small>Jan 01 2024</small></a>
+                  </div>
+                  <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+              </div>
+              <div class="">
+                  <div class="mb-2">
+                      <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Education</a>
+                      <a class="text-body" href=""><small>Jan 01 2024</small></a>
+                  </div>
+                  <a class="small text-body text-uppercase font-weight-medium" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
+              <div class="m-n1">
+                  <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Entertainment</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Travel</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Lifestyle</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Insipirational Photos</h5>
+              <div class="row">
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-1.jpg" alt=""></a>
+                  </div>
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-2.jpg" alt=""></a>
+                  </div>
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-3.jpg" alt=""></a>
+                  </div>
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-4.jpg" alt=""></a>
+                  </div>
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-5.jpg" alt=""></a>
+                  </div>
+                  <div class="col-4 mb-3">
+                      <a href=""><img class="w-100" src="../img/news-110x110-1.jpg" alt=""></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+      <p class="m-0 text-center">&copy; <a href="#">RNA</a>. All Rights Reserved. 
+  Design by <a href="#">Coding Warriors Team</a></p>
+  </div>
+  <!-- Footer End -->
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</section> 
+<!-- <marquee  direction="left" bgcolor="pink" style="position: absolute;" >Letest News:Lifestyle|Horoscope Today: Check today's horoscope,NOV 6 2023. </marquee> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

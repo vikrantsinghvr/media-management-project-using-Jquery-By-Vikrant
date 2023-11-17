@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>  //js for time
+        function getTimer()
+        {
+         var d=new Date();
+         var hh,mm,ss,mydv,t="";
+         mydv=document.getElementById("tme");
+         hh=d.getHours();
+         mm=d.getMinutes();
+         ss=d.getSeconds();
+         if(hh>12)
+         {
+             hh=hh-12;
+             tt="PM";
+         }
+         else
+         tt="AM";
+         mydv.innerHTML=hh+":"+mm+":"+ss+" "+tt;
+         window.setTimeout("getTimer()",1000);
+        }
+      </script>        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jqueryui/jquery-ui.min.js"></script>
+    <link href="js/jqueryui/jquery-ui.min.css" type="text/css" rel="stylesheet"/>
+    <script>
+        $(document).ready(function(){
+            $("#slide2").slideDown(2000);
+            
+            var index=0,x;
+            for(x=0;x<arr.length;x++)
+            {
+                
+            }
+             if(index<arr.length)
+             {
+                $("#slide2").html(arr[index]);
+             }
+          
+            $("#content").accordion({
+                collapsible:true,
+                active: false
+            }); 
+            $("#content1").accordion({
+                collapsible:true,
+                active: false
+            }); 
+            $("#content2").accordion({
+                collapsible:true,
+                active: false
+            }); 
+            $("#content3").accordion({
+                collapsible:true,
+                active: false
+            }); 
+            //for like
+            $("#like").click(function(){
+            $("#like").src("c:\Users\Dell\Pictures\Saved Pictures\whatsapp.jpg");
+            });
+           $(".")
+               
+            });
+    </script>
+
+    <style>
+        a{
+            cursor: pointer;
+        }
+          h2{
+            margin-left: 40px;
+          }
+          #tme{
+            height: 70px;
+            width: 300px;
+            background-color: yellow;
+            color: black;
+            font-size: 50px;
+            border: 2px solid black;
+            font-size: 8 00;
+          }
+          #none{
+            text-decoration: none;
+          }
+          #tech{
+            text-decoration:yellow underline;
+          }
+          a{
+            text-decoration: none;
+          }
+          #storyhead{
+            font-weight: 700;
+          }
+          #story{
+        
+            width: 100%;
+            background-color: rgb(240, 231, 231);
+            font-family: sans-serif;
+            font-size: larger;
+            color: rgb(25, 27, 28);
+            padding: 2px;
+            padding-left: 5px;
+          }
+          #marq{
+            font-size: 80px;
+            font-weight: 600;
+            padding-bottom: 15px;
+          }
+          #content1{
+            text-align: center;
+        
+                
+            
+          }
+          #cont2{
+            text-align: center;
+            background-color: yellow; 
+            color: rgb(31, 29, 29); 
+            font-size: large;
+             font-weight: bolder;
+          }
+          #trend{
+            text-align: center;
+            text-decoration: dashed;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 800;
+          }
+    </style>
+</head>
+<body onload="getTimer()">
+   
+    </div>
+    <div class="container-fluid">
+        <div class="row"> 
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1">
+               <h1 id="tech">Technology</h1>
+            </div>
+            <div class="col-sm-7"></div>
+            <div class="col-sm-3">
+                <div id="tme"></div>
+
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" id="marq" style="height: 110px; width: 1519px; background-color: yellow; position: absolute; top: 620px; float: left;">
+               
+               
+                <div id="slide2">
+                    <marquee scrollamount="20" behavior="slideDown" onmousemove="stop()" onmouseleave="start()" direction="">Bumble founder Whitney Wolfe Herd steps down as boss of dating app     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Musk says his new AI chatbot has 'a little humour'  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;   Inside India’s lab-grown diamond industry</marquee>
+                </div> 
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-8">
+               <video auto muted controls autoplay src="project/QUANTAM_TECHNOLOGY.mp4" width="100%"></video>
+            </div><br>
+            <div class="col-sm-2">
+                <h3 id="storyhead">Top Stories</h3>
+                <div id="story"></div><br>
+                <p id="story"> <a href="#">Live now From Gaza becoming a graveyard for childern as Israeli striks intensify</a></p><br>
+                <p id="story"> <a href="#">MediaTek announces Dimensity 9300 chipset with ‘all big core’ design</a></p><br>
+                <p id="story"> <a href="#">Meet Angry Pumpkins: A game made using ChatGPT, DALL-E 3 and MidJourney</a></p>
+              </div>
+            <div class="col-sm-1"></div>
+        </div><br><br><br><br><br>
+        <div class="row" >
+            <div class="col-sm-1"></div>
+            
+            <div class="col-sm-10">
+                <h2 id="trend">Today News</h2>
+            </div>
+            <div class="col-sm-1"></div>
+        </div><brs>
+        <div class="row">
+        
+            <div class="col-sm-1"> </div>
+            <div class="col-sm-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThAel-Brwm3zs1hT6A4yktCunWNKomwGmDFA&usqp=CAU" width="100%"/><br>
+                <h2> <a href="#">Convicted 'Crypto King' faces decades in jail</a></h2>
+                <p>Sam Bankman-Fried's guilty Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, excepturi.</p>
+                <br><br>
+                <ul type="circle">
+                    <li> <a href="#">Lorem ipsum dolor sit amet consectetur.</a> </li>
+                    <li> <a href="#">Lorem ipsum dolor sit ?</a> </li>
+                </ul>
+                <button id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                     <img src="https://images.indianexpress.com/2023/11/iPad-Pro-Apple.jpg"  width="100%">
+                     <a href="#">Apple may refresh its entire iPad lineup in 2024: Report.</a><br>
+                    
+                     <p>Apple is expected to launch iPad, iPad mini and iPad Air in early 2024 while the iPad Pro with M3 chip is expected to launch in the first half of the year,.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://images.indianexpress.com/2023/11/google-photos-ai-highlight-videos.jpg" width="100%">
+                        <a href="#">How to use AI to create highlight videos in Google Photos.</a><br>
+                        <p>Besides being a cloud photo and video manager, Google Photos encompasses several features, and it is also one of the best platforms to stylize and edit photos..</p>
+                       </div>
+                       <div class="col-sm-4">
+                        <img src="https://images.indianexpress.com/2023/11/WhatsApp-Express-Photo-1.jpg"  width="100%">
+                        <a href="#">WhatsApp working on email verification feature for iOS and Android.</a><br>
+                        <p>WhatsApp, the instant messaging app used by billions worldwide, is testing a new feature that lets users log in to their accounts using email in addition to their phone number.</p>
+                       </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-4">
+                     <img src="https://images.indianexpress.com/2023/11/MediaTek-Dimensity.jpg"  width="100%">
+                     <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a><br>
+                     <p>GPT-4 Turbo, GPT Store & Assistants API: 9 big takeaways from OpenAI DevDay 2023.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://images.indianexpress.com/2023/11/Apple-Watch-Apple.jpg"  width="100%">
+                        <a href="#">Apple Watch battery draining after watchOS 10.1 update? Here are some potential workarounds.</a><br>
+                        <p>Lorem ipsum dolor sit amet consectetur, consequuntur sed soluta labore, harum doloremque omnis.</p>
+                       </div>
+                       <div class="col-sm-4">
+                        <img src="https://images.indianexpress.com/2023/11/razer-anzu-smartglass-review-3.jpg"  width="100%">
+                        <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a><br>
+                        <p>How Razer Anzu became my favourite pair of sunglasses and almost replaced my wireless.</p>
+                       </div>
+            
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        </div><br><br><br>
+        <h1 id="trend">Trending Breaking News</h1><br>
+        <div id="content1">
+            <h1 id="cont2">Moungi G. Bawendi, Louis E. Brus and Aleksey Yekimov are awarded the Nobel Prize in Chemistry 2023 for the discovery and development of quantum dots.</h1>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+                    <div id="vd">
+                        <video controls muted autoplay  src="./project/nobale_prize.mp4" width="100%"></video> 
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4" >
+                    <ul><li>2023 peace laureate Narges Mohammadi has asked that her daughter Kiana deliver a message that she has managed to smuggle out of prison in Tehran, Iran.</li><br>
+                    <li>“I wasn’t interested in learning stuff. I was just interested in understanding, because I could see what a fabulous shortcut it always was.” – Meet 2005 medicine laureate Barry Marshall in a dynamic talk with the Nobel Prize’s Adam Smith.</li>
+                    <br>
+                <li> Marshall tells us about his blog (something very few laureates had in 2005!), his time as a yo-yo expert and his research that paved the way to a Nobel Prize. </li></ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+           
+        </div>
+        <div id="content2">
+            <h1 id="cont2">Bringing the benefits of AI to everyone.</h1>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+                    <div id="vd">
+                        <video controls muted autoplay  src="./project/ai_in_us.mp4" width="100%"></video> 
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <ul><li>2023 peace laureate Narges Mohammadi has asked that her daughter Kiana deliver a message that she has managed to smuggle out of prison in Tehran, Iran.</li>
+                    <li>“I wasn’t interested in learning stuff. I was just interested in understanding, because I could see what a fabulous shortcut it always was.” – Meet 2005 medicine laureate Barry Marshall in a dynamic talk with the Nobel Prize’s Adam Smith.</li>
+                <li> Marshall tells us about his blog (something very few laureates had in 2005!), his time as a yo-yo expert and his research that paved the way to a Nobel Prize. </li></ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            
+        </div>
+        <div id="content3">
+            <h1 id="cont2"> Chandrayaan-3 is a follow-on mission to Chandrayaan-2 to demonstrate end-to-end capability in safe landing and roving on the lunar surface.</h1>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+                    <div id="vd">
+                        <video controls muted autoplay  src="./project/Chandrayaan 3.mp4" width="100%"></video> 
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <ul><li>2023 peace laureate Narges Mohammadi has asked that her daughter Kiana deliver a message that she has managed to smuggle out of prison in Tehran, Iran.</li>
+                    <li>“I wasn’t interested in learning stuff. I was just interested in understanding, because I could see what a fabulous shortcut it always was.” – Meet 2005 medicine laureate Barry Marshall in a dynamic talk with the Nobel Prize’s Adam Smith.</li>
+                <li> Marshall tells us about his blog (something very few laureates had in 2005!), his time as a yo-yo expert and his research that paved the way to a Nobel Prize. </li></ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div><br><br>
+       
+        <div class="row" >
+            <div class="col-sm-1"></div>
+            
+            <div class="col-sm-10">
+                <h2 id="trend">Recent Updates</h2>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <img src="https://images.indianexpress.com/2023/11/Untitled-design-13.jpg" width="100%">
+                <a href="#">Viral ‘Rashmika Mandanna video’ spotlights Big Tech’s deepfake problem, yet again
+                    .</a><br>
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.indianexpress.com/2023/11/diwali-phone-buying-guide.jpg"  width="100%">
+                <a href="#">Diwali gifting ideas: Top smartphone picks for the festival season.</a><br>
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.indianexpress.com/2023/11/sennheiser-interview.jpg"  width="100%">
+                <a href="#">Andreas Sennheiser interview: We’re at the beginning of the golden age of audio.</a><br>
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.indianexpress.com/2023/11/OpenAI.png"  width="100%">
+                <a href="#">GPT-4 Turbo, GPT Store & Assistants API: 9 big takeaways from OpenAI DevDay 2023.</a><br>
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.indianexpress.com/2023/11/Snapchat-APAC-AR-Day-2023-1.jpeg"  width="100%">
+                <a href="#">Snapchat CEO Evan Spiegel hails Indian developers and creators at APAC AR Day 2023.</a><br>
+            </div>
+
+            <div class="col-sm-1"></div>
+        </div><br>
+        <div class="row" >
+            <div class="col-sm-1"></div>
+            
+            <div class="col-sm-10">
+                <h2 id="trend">Watch/Listen</h2>
+                <div style="height: 2px; width:100%; background-color: rgb(74, 81, 81);" ></div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <video controls muted autoplay  src="project/ai_in_us.mp4" width="100%"></video>
+                <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a>
+                </div>
+                <div class="col-sm-2">
+                    <video controls muted autoplay  src="project/chNDRAYAN3.mp4" width="100%"></video>
+                    <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <video controls muted autoplay  src=" project/iPhone.mp4" width="100%"></video>
+                        <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a>
+                        </div>
+                        <div class="col-sm-2">
+                            <video controls muted autoplay  src=" project/nobale_prize.mp4" width="100%"></video>
+                            <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <video controls muted autoplay  src=" project/QUANTAM_TECHNOLOGY.mp4" width="100%"></video>
+                                <a href="#">Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</a>
+                                </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br><br>
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div style="height: 2px; width:100%; background-color: rgb(74, 81, 81);" ></div>
+            <br>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+        <div class="row"><br>
+            <div class="col-sm-3"></div>
+           
+            <div class="col-sm-6">
+                <h2>Latest Updates</h2><br><br>
+                <h2>5:57</h2>
+             <h2></h2>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</body>
+</html>
